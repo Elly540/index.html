@@ -1,1 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>Ben Digital Hub</title>
+<style>
+*{box-sizing:border-box}
+body{margin:0;font-family:Arial,sans-serif;background:#08111f;color:white}
+header{padding:20px;background:#1261d6;text-align:center}
+header h1{margin:0}
+nav{margin-top:12px}
+nav a{color:white;text-decoration:none;margin:8px}
+.hero{text-align:center;padding:70px 20px;background:linear-gradient(135deg,#123c8c,#07101f)}
+.hero h2{font-size:40px}
+.hero span{color:#55aaff}
+.btn{display:inline-block;background:#1683ff;color:white;padding:13px 25px;border-radius:8px;text-decoration:none;margin-top:15px}
+section{padding:45px 20px;max-width:1000px;margin:auto}
+h2{text-align:center}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:18px}
+.card{background:#111f33;padding:25px;border-radius:15px;border:1px solid #263b59}
+.card h3{color:#55aaff}
+.card p{color:#cbd5e1}
+.contact{text-align:center}
+footer{text-align:center;padding:25px;background:#050b14;color:#94a3b8}
+</style>
+</head>
 
+<body>
+
+<header>
+<h1>Ben Digital Hub</h1>
+<nav>
+<a href="#home">Home</a>
+<a href="#about">About</a>
+<a href="#content">Content</a>
+<a href="#contact">Contact</a>
+</nav>
+</header>
+
+<section class="hero" id="home">
+<h2>Welcome to <span>Ben Digital Hub</span></h2>
+<p>Football, Gaming, Technology and Digital Content.</p>
+<a class="btn" href="#content">Explore</a>
+</section>
+
+<section id="about">
+<h2>About Me</h2>
+<p style="text-align:center">
+Welcome to my personal website. Here I share football,
+gaming, technology tips and interesting digital content.
+</p>
+</section>
+
+<section id="content">
+<h2>My Content</h2>
+
+<div class="cards">
+
+<div class="card">
+<h3>⚽ Football</h3>
+<p>Football news, players, clubs and match information.</p>
+</div>
+
+<div class="card">
+<h3>🎮 Gaming</h3>
+<p>FC Mobile, Dream League Soccer and gaming tips.</p>
+</div>
+
+<div class="card">
+<h3>📱 Technology</h3>
+<p>Phone tips, apps, websites and useful technology guides.</p>
+</div>
+
+<div class="card">
+<h3>📝 Articles</h3>
+<p>Interesting stories, guides and useful information.</p>
+</div>
+
+</div>
+</section>
+
+<section class="contact" id="contact">
+<h2>Contact Me</h2>
+<p>For business, advertising or collaboration.</p>
+<a class="btn" href="mailto:your@email.com">Email Me</a>
+</section>
+
+<footer>
+© 2026 Ben Digital Hub
+</footer>
+
+</body>
+</html>
